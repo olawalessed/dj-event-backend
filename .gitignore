@@ -112,3 +112,6 @@ exports
 *.cache
 build
 .strapi-updater.json
+yarn.lock
+yarn-error.log
+node_modules
