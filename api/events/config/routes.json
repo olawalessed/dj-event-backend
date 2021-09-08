@@ -1,9 +1,18 @@
+
 {
   "routes": [
     {
       "method": "GET",
       "path": "/events",
       "handler": "events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/events/me",
+      "handler": "events.me",
       "config": {
         "policies": []
       }
